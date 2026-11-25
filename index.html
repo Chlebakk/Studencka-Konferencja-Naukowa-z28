@@ -7,11 +7,53 @@
 </head>
 
 <!-- GŁÓWNA ZAWARTOŚĆ: 4 EKRANY -->
-  <main>
+<main>
+      <section id="screen-start">
+      <h1>1. Start (Oś główna)</h1>
+      <p>Ekran startowy aplikacji – wybór głównego zadania przez uczestnika konferencji.</p>
 
+      <article>
+        <h2>Program konferencji</h2>
+        <p>Przeglądaj referaty z podziałem na dni i sesje tematyczne.</p>
+        <button onclick="showScreen('program')">Przejdź do listy</button>
+      </article>
 
+      <article>
+        <h2>Mój harmonogram</h2>
+        <p>Sprawdź zapisane wystąpienia, sale oraz godziny.</p>
+        <button onclick="showScreen('harmonogram')">Otwórz harmonogram</button>
+      </article>
 
+      <article>
+        <h2>Rejestracja</h2>
+        <p>Zarejestruj udział jako słuchacz lub zgłoś własny referat.</p>
+        <button onclick="showScreen('rejestracja')">Otwórz formularz</button>
+      </article>
+      </section>
 
+    <!-- EKRAN 2: PROGRAM (LISTA) -->
+    <section id="screen-program" hidden>
+      <p><button onclick="showScreen('start')">← Powrót na Start</button></p>
+      <h1>2. Program konferencji (Ekran listy)</h1>
+      <p>Widok listy referatów z podziałem na dni i sesje.</p>
+      <p><em>[Miejsce na listę referatów wczytaną z pliku JSON/CSV]</em></p>
+    </section>
+
+    <!-- EKRAN 3: MÓJ HARMONOGRAM -->
+    <section id="screen-harmonogram" hidden>
+      <p><button onclick="showScreen('start')">← Powrót na Start</button></p>
+      <h1>3. Mój harmonogram</h1>
+      <p>Widok wybranych wystąpień uczestnika.</p>
+      <p><em>[Miejsce na wybrane referaty użytkownika]</em></p>
+    </section>
+
+    <!-- EKRAN 4: REJESTRACJA (FORMULARZ) -->
+    <section id="screen-rejestracja" hidden>
+      <p><button onclick="showScreen('start')">← Powrót na Start</button></p>
+      <h1>4. Rejestracja / Zgłoszenie referatu (Formularz)</h1>
+      <p>Widok formularza rejestracji uczestnika lub prelegenta.</p>
+      <p><em>[Miejsce na pola formularza i walidację]</em></p>
+    </section>
 
   </main>
     <!-- RAMA GRAFICZNA: STOPKA -->
