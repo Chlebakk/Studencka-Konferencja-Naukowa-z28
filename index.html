@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studencka konferencja naukowa</title>
+</head>
+
+<!-- GŁÓWNA ZAWARTOŚĆ: 4 EKRANY -->
+  <main>
+
+
+
+
+
+  </main>
+    <!-- RAMA GRAFICZNA: STOPKA -->
+  <footer>
+    <hr />
+    <p>Zespół 28 – Studencka konferencja naukowa </p>
+  </footer>
+
+  <script>
+    function showScreen(screenId) {
+      document.querySelectorAll('main > section').forEach(section => {
+        section.hidden = true;
+      });
+      document.getElementById('screen-' + screenId).hidden = false;
+    }
+  </script>
+
+</body>
+</html>
