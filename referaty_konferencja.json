@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "tytul": "Zastosowanie sieci neuronowych w analizie obrazów medycznych MRI",
+    "autor": "Jan Kowalski",
+    "afiliacja": "UKEN Kraków",
+    "sesja": "Sztuczna Inteligencja",
+    "dzien": "Dzień 1 (18.11)",
+    "godzina": "10:00 - 10:30",
+    "sala": "Sala A1",
+    "abstrakt": "W referacie przedstawiono porównanie architektur głębokiego uczenia U-Net oraz ResNet w automatycznej segmentacji struktur anatomicznych na skanach rezonansu magnetycznego (MRI). Omówiono metody wstępnego przetwarzania obrazów oraz wpływ augmentacji danych na redukcję błędu segmentacji."
+  },
+  {
+    "id": 2,
+    "tytul": "Optymalizacja zapytań analitycznych w relacyjnych bazach danych",
+    "autor": "Anna Nowak",
+    "afiliacja": "AGH Kraków",
+    "sesja": "Inżynieria Danych",
+    "dzien": "Dzień 1 (18.11)",
+    "godzina": "10:30 - 11:00",
+    "sala": "Sala A1",
+    "abstrakt": "Analiza wpływu indeksów złożonych, partycjonowania tabel oraz przebudowy planów wykonania na czas odpowiedzi złożonych zapytań agregujących w systemach PostgreSQL i MySQL przy wolumenie przekraczającym 50 milionów rekordów."
+  },
+  {
+    "id": 3,
+    "tytul": "Bezpieczeństwo aplikacji webowych i odporność interfejsów REST API",
+    "autor": "Piotr Wiśniewski",
+    "afiliacja": "Uniwersytet Jagielloński",
+    "sesja": "Cyberbezpieczeństwo",
+    "dzien": "Dzień 1 (18.11)",
+    "godzina": "11:15 - 11:45",
+    "sala": "Sala B2",
+    "abstrakt": "Przegląd najczęstszych podatności z listy OWASP API Security Top 10, w tym Broken Object Level Authorization (BOLA), oraz praktyczne metody wdrażania mechanizmów uwierzytelniania OAuth 2.0, JWT i ograniczania przepustowości (rate limiting)."
+  },
+  {
+    "id": 4,
+    "tytul": "Przetwarzanie języka naturalnego w klasyfikacji zgłoszeń studenckich",
+    "autor": "Katarzyna Zielińska",
+    "afiliacja": "Politechnika Krakowska",
+    "sesja": "Sztuczna Inteligencja",
+    "dzien": "Dzień 1 (18.11)",
+    "godzina": "12:00 - 12:30",
+    "sala": "Sala A1",
+    "abstrakt": "Zastosowanie polskich modeli językowych opartych na architekturze Transformer (HerBERT) do automatycznej kategoryzacji i priorytetyzacji wiadomości kierowanych do dziekanatów oraz wsparcia technicznego uczelni."
+  },
+  {
+    "id": 5,
+    "tytul": "Analiza podatności kryptograficznych w komunikacji urządzeń IoT",
+    "autor": "Michał Lewandowski",
+    "afiliacja": "UKEN Kraków",
+    "sesja": "Cyberbezpieczeństwo",
+    "dzien": "Dzień 1 (18.11)",
+    "godzina": "12:30 - 13:00",
+    "sala": "Sala B2",
+    "abstrakt": "Badanie bezpieczeństwa protokołów MQTT oraz CoAP stosowanych w sieciach czujników inteligentnych budynków. Przedstawiono scenariusze ataków typu Man-in-the-Middle oraz lekkie algorytmy szyfrowania dla mikrokontrolerów o ograniczonych zasobach."
+  },
+  {
+    "id": 6,
+    "tytul": "Projektowanie responsywnych interfejsów zgodnie z wytycznymi WCAG 2.2",
+    "autor": "Magdalena Wójcik",
+    "afiliacja": "Uniwersytet Ekonomiczny w Krakowie",
+    "sesja": "UX/UI i Dostępność",
+    "dzien": "Dzień 1 (18.11)",
+    "godzina": "13:30 - 14:00",
+    "sala": "Sala C3",
+    "abstrakt": "Praktyczny audyt dostępności cyfrowej akademickich serwisów informacyjnych. Omówienie zasad kontrastu, nawigacji klawiaturą, czytników ekranu oraz projektowania formularzy minimalizujących obciążenie poznawcze użytkownika."
+  },
+  {
+    "id": 7,
+    "tytul": "Zastosowanie uczenia ze wzmocnieniem w sterowaniu autonomicznymi robotami",
+    "autor": "Tomasz Kamiński",
+    "afiliacja": "AGH Kraków",
+    "sesja": "Sztuczna Inteligencja",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "09:30 - 10:00",
+    "sala": "Sala A1",
+    "abstrakt": "Wykorzystanie algorytmów PPO (Proximal Policy Optimization) w środowisku symulacyjnym Gazebo do nauki omijania przeszkód dynamicznych przez mobilne platformy kołowe bez konieczności wcześniejszego mapowania terenu."
+  },
+  {
+    "id": 8,
+    "tytul": "Potoki przetwarzania danych strumieniowych z użyciem Apache Kafka",
+    "autor": "Karolina Dąbrowska",
+    "afiliacja": "Politechnika Warszawska",
+    "sesja": "Inżynieria Danych",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "10:15 - 10:45",
+    "sala": "Sala B2",
+    "abstrakt": "Architektura systemu zbierania i agregacji telemetrii w czasie rzeczywistym. Omówienie partycjonowania tematów, gwarantowania dostarczenia wiadomości (exactly-once semantics) oraz integracji z hurtowniami danych."
+  },
+  {
+    "id": 9,
+    "tytul": "Kryptografia postkwantowa – przegląd algorytmów standaryzowanych przez NIST",
+    "autor": "Dawid Szymański",
+    "afiliacja": "Uniwersytet Jagielloński",
+    "sesja": "Cyberbezpieczeństwo",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "11:00 - 11:30",
+    "sala": "Sala B2",
+    "abstrakt": "Analiza zagrożeń wynikających z rozwoju komputerów kwantowych dla algorytmów RSA i ECC oraz charakterystyka nowych schematów opartych na kratach (ML-KEM, ML-DSA) przygotowanych do wdrożenia w protokole TLS 1.3."
+  },
+  {
+    "id": 10,
+    "tytul": "Wzorce nawigacji i architektura informacji w aplikacjach mobilnych",
+    "autor": "Natalia Kozłowska",
+    "afiliacja": "UKEN Kraków",
+    "sesja": "UX/UI i Dostępność",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "11:45 - 12:15",
+    "sala": "Sala C3",
+    "abstrakt": "Porównanie efektywności modeli nawigacji (oś i szprychy, dolny pasek nawigacyjny, szuflada) w aplikacjach używanych w ruchu. Wyniki badań użyteczności z udziałem 30 studentów wykonujących zadania pod presją czasu."
+  },
+  {
+    "id": 11,
+    "tytul": "Detekcja anomalii w ruchu sieciowym z wykorzystaniem autoenkoderów",
+    "autor": "Jakub Jankowski",
+    "afiliacja": "Politechnika Wrocławska",
+    "sesja": "Cyberbezpieczeństwo",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "12:30 - 13:00",
+    "sala": "Sala A1",
+    "abstrakt": "Uczenie nienadzorowane w systemach wykrywania włamań (IDS). Przedstawienie metody identyfikacji nietypowych pakietów sieciowych na podstawie błędu rekonstrukcji głębokiego autoenkodera."
+  },
+  {
+    "id": 12,
+    "tytul": "Porównanie wydajności baz szeregów czasowych w monitoringu systemów",
+    "autor": "Aleksandra Mazur",
+    "afiliacja": "UKEN Kraków",
+    "sesja": "Inżynieria Danych",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "13:15 - 13:45",
+    "sala": "Sala C3",
+    "abstrakt": "Zestawienie przepustowości zapisu, stopnia kompresji oraz opóźnień zapytań w bazach InfluxDB, TimescaleDB oraz Prometheus dla metryk zbieranych z klastrów kontenerowych."
+  },
+  {
+    "id": 13,
+    "tytul": "Wykorzystanie widzenia komputerowego do kontroli jakości na linii produkcyjnej",
+    "autor": "Szymon Wojciechowski",
+    "afiliacja": "AGH Kraków",
+    "sesja": "Sztuczna Inteligencja",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "14:00 - 14:30",
+    "sala": "Sala A1",
+    "abstrakt": "Implementacja lekkiego detektora obiektów YOLOv8 na platformie brzegowej NVIDIA Jetson do wykrywania mikrouszkodzeń powierzchni elementów metalowych w czasie poniżej 15 milisekund na klatkę."
+  },
+  {
+    "id": 14,
+    "tytul": "Projektowanie mikrointerakcji i walidacji w formularzach webowych",
+    "autor": "Wiktoria Kwiatkowska",
+    "afiliacja": "Uniwersytet Komisji Edukacji Narodowej",
+    "sesja": "UX/UI i Dostępność",
+    "dzien": "Dzień 2 (19.11)",
+    "godzina": "14:45 - 15:15",
+    "sala": "Sala C3",
+    "abstrakt": "Wpływ komunikatów walidacji w czasie rzeczywistym (inline validation) oraz odpowiedniego doboru kontrolek na współczynnik ukończenia formularzy rejestracyjnych na urządzeniach stacjonarnych i mobilnych."
+  }
+]
