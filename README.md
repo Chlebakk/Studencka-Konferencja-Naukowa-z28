@@ -28,23 +28,3 @@ Etykiety nad polami i wartości domyślne w formularzu rejestracji,
 Walidacja w czasie rzeczywistym z komunikatami pod polami,
 
 Zlinearyzowany układ jednokolumnowy na wąskich ekranach.
-
-Planowany zakres prac
-
-[x] K1: Mapa ekranów, model nawigacji, 6 wzorców projektowych oraz 3 makiety low-fi.
-
-[ ] Dokumentacja (Overleaf): Uzupełnienie metryczki, rozdziałów 1–4, 6 oraz załącznika A na podstawie K1.
-
-[ ] Repozytorium: Konfiguracja dostępu oraz plik README.md.
-
-[ ] Dane: Przygotowanie pliku data.json z kilkunastoma realistycznymi rekordami referatów.
-
-[ ] Szkielet: Ekrany połączone nawigacją z powrotem na Start.
-
-[ ] Lista: Wczytanie i wyświetlenie rekordów z pliku danych na ekranie programu.
-
-Uruchomienie lokalne
-
-repozytorium:
-
-git clone (https://github.com/Chlebakk/Studencka-Konferencja-Naukowa-z28.git)
